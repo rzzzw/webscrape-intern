@@ -1,0 +1,4 @@
+[project]
+name = "quotes_scraper"
+version = "0.1.0"
+dependencies = ["requests", "beautifulsoup4", "httpx"]
