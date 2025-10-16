@@ -4,7 +4,7 @@ from requests.exceptions import RequestException
 def fetch(url: str, delay_ms: int, retries=3):
     for i in range(retries):
         try:
-            headers = {"User-Agent": "QuotesScraperBot/1.0 (contact: example@example.com)"}
+            headers = {"User-Agent": "QuotesScraperBot/1.0 (contact: rzzzw88@gmail.com)"}
             resp = requests.get(url, headers=headers, timeout=10)
             if resp.status_code == 200:
                 time.sleep(delay_ms / 1000.0)
